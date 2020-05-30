@@ -9,7 +9,7 @@ def hello():
     return 'Anakin Skywalker'
 
 @app.route('/hello')
-def hello():
+def helloWorld():
     name = "Muga"
     return f'Hello, {name}?'
 
