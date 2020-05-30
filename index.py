@@ -8,4 +8,9 @@ def hello():
     print('LXLG')
     return 'Anakin Skywalker'
 
+@app.route('/hello')
+def hello():
+    name = "Muga"
+    return f'Hello, {name}?'
+
 
